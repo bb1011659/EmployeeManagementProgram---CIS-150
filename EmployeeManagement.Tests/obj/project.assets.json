@@ -1765,11 +1765,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bab10\\source\\repos\\EmployeeManagement.Tests\\EmployeeManagement.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\bab10\\source\\repos\\EmployeeManagementProgram\\EmployeeManagement.Tests\\EmployeeManagement.Tests.csproj",
       "projectName": "EmployeeManagement.Tests",
-      "projectPath": "C:\\Users\\bab10\\source\\repos\\EmployeeManagement.Tests\\EmployeeManagement.Tests.csproj",
+      "projectPath": "C:\\Users\\bab10\\source\\repos\\EmployeeManagementProgram\\EmployeeManagement.Tests\\EmployeeManagement.Tests.csproj",
       "packagesPath": "C:\\Users\\bab10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bab10\\source\\repos\\EmployeeManagement.Tests\\obj\\",
+      "outputPath": "C:\\Users\\bab10\\source\\repos\\EmployeeManagementProgram\\EmployeeManagement.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1790,8 +1790,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\bab10\\source\\repos\\Employee Management Program\\Employee Management Program.csproj": {
-              "projectPath": "C:\\Users\\bab10\\source\\repos\\Employee Management Program\\Employee Management Program.csproj"
+            "C:\\Users\\bab10\\source\\repos\\EmployeeManagementProgram\\Employee Management Program\\Employee Management Program.csproj": {
+              "projectPath": "C:\\Users\\bab10\\source\\repos\\EmployeeManagementProgram\\Employee Management Program\\Employee Management Program.csproj"
             }
           }
         }

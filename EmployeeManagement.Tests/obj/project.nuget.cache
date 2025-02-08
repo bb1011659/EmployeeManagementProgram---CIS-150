@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2B1VlYxzKBo=",
+  "dgSpecHash": "vVpd7FM+Tl4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bab10\\source\\repos\\EmployeeManagement.Tests\\EmployeeManagement.Tests.csproj",
+  "projectFilePath": "C:\\Users\\bab10\\source\\repos\\EmployeeManagementProgram\\EmployeeManagement.Tests\\EmployeeManagement.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bab10\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
     "C:\\Users\\bab10\\.nuget\\packages\\microsoft.codecoverage\\17.11.1\\microsoft.codecoverage.17.11.1.nupkg.sha512",

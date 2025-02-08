@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bab10\\source\\repos\\Employee Management Program\\Employee Management Program.csproj",
+      "projectUniqueName": "C:\\Users\\bab10\\source\\repos\\EmployeeManagementProgram\\Employee Management Program\\Employee Management Program.csproj",
       "projectName": "Employee Management Program",
-      "projectPath": "C:\\Users\\bab10\\source\\repos\\Employee Management Program\\Employee Management Program.csproj",
+      "projectPath": "C:\\Users\\bab10\\source\\repos\\EmployeeManagementProgram\\Employee Management Program\\Employee Management Program.csproj",
       "packagesPath": "C:\\Users\\bab10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bab10\\source\\repos\\Employee Management Program\\obj\\",
+      "outputPath": "C:\\Users\\bab10\\source\\repos\\EmployeeManagementProgram\\Employee Management Program\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

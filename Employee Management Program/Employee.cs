@@ -47,9 +47,9 @@ namespace Employee_Management_Program
             BaseSalary = baseSalary;
         }
 
-        public virtual void CalculatePay()//This is the creation of the CalculatePay method that we will use to calculate the pay of each type of employee. It is made vitural so we can override the method in our inherited classes.
+        public virtual double CalculatePay()//This is the creation of the CalculatePay method that we will use to calculate the pay of each type of employee. It is made vitural so we can override the method in our inherited classes.
         {
-            double totalPay = baseSalary;
+            return baseSalary;
 
         }
 
@@ -73,11 +73,10 @@ namespace Employee_Management_Program
             AnnualBonus = BaseSalary * .05;//This tells the program to calculate the FullTime employee's bonus as 5% of their base salary.
         }
 
-        public override void CalculatePay()//The override key word is used because we are changing the CalculatePay method for the fulltime employee.
+        public override double CalculatePay()//The override key word is used because we are changing the CalculatePay method for the fulltime employee.
         {
            
-            double totalPay = BaseSalary + AnnualBonus;//This includes Annual Bonus in the calculation of total pay.
-            Console.WriteLine($"{Name}'s total pay this year was ${totalPay}.\n ");//This informs the user what the pay was for this employee. That includes base salary and annual bonus.
+             return BaseSalary + AnnualBonus;//This includes Annual Bonus in the calculation of total pay.
         }
 
        
@@ -112,12 +111,12 @@ namespace Employee_Management_Program
             HoursWorked = Convert.ToInt32(Console.ReadLine());//This converts the hours input into type int.
         }
 
-        public override void CalculatePay()
+        public override double CalculatePay()
         {
             
             
-            double totalPay = HourlyRate * HoursWorked;//This is the new calculation for calculating the pay for part time employees.
-            Console.WriteLine($"{Name}'s total pay for this pay period is ${totalPay:N2}.\n ");
+            return HourlyRate * HoursWorked;//This is the new calculation for calculating the pay for part time employees.
+          
 
         }
 
@@ -141,24 +140,24 @@ namespace Employee_Management_Program
             get { return contractAmount; }
             set { contractAmount = value; }
         }
-        public Contractor (int id, string name, string department) : base (id, name, department, 0)//Value of zero is used for baseSalary because contractors don't have a base Salary, thus the property is not used.
+        public Contractor (int id, string name, string department, double contractAmount) : base (id, name, department, 0)//Value of zero is used for baseSalary because contractors don't have a base Salary, thus the property is not used.
         {
-            Console.Write($"When is the Contract for {Name} set to expire? Please enter MM/DD/YYYY\n<<");//This ask the user to input when the contract is set to expire, and how to input the date.
+            Console.Write($"When is the Contract for {Name} set to expire? Please enter MM/DD/YYYY\n>>");//This ask the user to input when the contract is set to expire, and how to input the date.
             ContractExpiryDate = Convert.ToDateTime(Console.ReadLine());//Converts the user input to type DateTime.
-
+            ContractAmount = contractAmount;
 
         }
         
-        public override void CalculatePay()
+        public override double CalculatePay()
         {
             if(DateTime.Today >= ContractExpiryDate)//Contractors aren't paid until the job is done, which we will assume is the expiry date. This if statement says if the current date is past or equal to the expiry date, then the contractor is paid.
             {
-                ContractAmount = 10000;
+                return ContractAmount;
             }
             else//This condition occurs when the current date is before the expiry date. The presumption is the job is not done before the expiry date, so the contractor is not paid yet.
             {
                 Console.WriteLine($"Contract for {Name} is not set to expire until {ContractExpiryDate}.\nNo payment is due until then.");
-                ContractAmount = 0;
+                return 0;
             }
         }
 

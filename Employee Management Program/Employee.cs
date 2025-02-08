@@ -68,9 +68,10 @@ namespace Employee_Management_Program
             set { annualBonus = value; }
         }
 
-        public FullTime (int id, string name, string department, double baseSalary) : base (id, name, department, baseSalary)//This is the custom constructor for our FullTime class.
+        public FullTime (int id, string name, string department, double baseSalary, double annualBonus) : base (id, name, department, baseSalary)//This is the custom constructor for our FullTime class.
         {
-            AnnualBonus = BaseSalary * .05;//This tells the program to calculate the FullTime employee's bonus as 5% of their base salary.
+            AnnualBonus = ((annualBonus/100) * baseSalary);
+            
         }
 
         public override double CalculatePay()//The override key word is used because we are changing the CalculatePay method for the fulltime employee.
@@ -83,7 +84,7 @@ namespace Employee_Management_Program
 
         public override string ToString()//The code below is the information that will be displayed when the DisplayEmployeeDetails method is called for this employee.
         {
-            return $"ID: {ID}\nName: {Name}\nDepartment: {Department}\nBaseSalary: {BaseSalary}\nAnnual Bonus: {AnnualBonus}\n ";
+            return $"ID: {ID}\nName: {Name}\nDepartment: {Department}\nBaseSalary: ${BaseSalary:N2}\nAnnual Bonus: ${AnnualBonus:N2}\n ";
         }
     }
 
@@ -103,18 +104,17 @@ namespace Employee_Management_Program
             get { return hoursWorked; }
             set { hoursWorked = value; }
         }
-        public PartTime (int id, string name, string department) : base (id, name, department, 0)//Value of zero is used for baseSalary because part time employees don't have a base Salary, thus the property is not used.
+        public PartTime (int id, string name, string department, double hourlyRate, int hoursWorked) : base (id, name, department, 0)//Value of zero is used for baseSalary because part time employees don't have a base Salary, thus the property is not used.
         {
-            Console.Write($"What is the current hourly rate for {Name}?\n>>");//This asks the user to input the hourly rate for the given employee.
-            HourlyRate = Convert.ToDouble(Console.ReadLine());//This converts the user's input to type double.
-            Console.Write($"How many hours has {Name}, Employee ID#{ID} worked during the current pay period?\n>>");//This asks the user to input the amount of hours worked during the current pay period.
-            HoursWorked = Convert.ToInt32(Console.ReadLine());//This converts the hours input into type int.
+            HourlyRate = hourlyRate;
+            HoursWorked = hoursWorked;
         }
 
         public override double CalculatePay()
         {
             
-            
+            double totalPay = HourlyRate * HoursWorked;
+            Console.Write($"The amount to be paid to {Name} is ${totalPay:N2}.\n");
             return HourlyRate * HoursWorked;//This is the new calculation for calculating the pay for part time employees.
           
 
@@ -122,7 +122,7 @@ namespace Employee_Management_Program
 
         public override string ToString()
         {
-            return $"ID: {ID}\nName: {Name}\nDepartment: {Department}\nHourly Rate: {HourlyRate}\nHours Worked: {HoursWorked}\n ";
+            return $"ID: {ID}\nName: {Name}\nDepartment: {Department}\nHourly Rate: ${HourlyRate:N2}\nHours Worked: {HoursWorked}\n ";
         }
     }
 
@@ -144,7 +144,16 @@ namespace Employee_Management_Program
         {
             Console.Write($"When is the Contract for {Name} set to expire? Please enter MM/DD/YYYY\n>>");//This ask the user to input when the contract is set to expire, and how to input the date.
             ContractExpiryDate = Convert.ToDateTime(Console.ReadLine());//Converts the user input to type DateTime.
-            ContractAmount = contractAmount;
+            if(contractAmount >= 0)
+            {
+                ContractAmount = contractAmount;
+            }
+
+            else
+            {
+                Console.WriteLine("Invalid contract amount. Please enter a positive number or zero."); 
+            }
+            
 
         }
         
@@ -163,7 +172,7 @@ namespace Employee_Management_Program
 
         public override string ToString()
         {
-            return $"ID: {ID}\nName: {Name}\nDepartment: {Department}\nContract Expiry Date: {ContractExpiryDate}\nContract Amount: {ContractAmount}";
+            return $"ID: {ID}\nName: {Name}\nDepartment: {Department}\nContract Expiry Date: {ContractExpiryDate}\nContract Amount: ${ContractAmount:N2}\n";
         }
     }
 }

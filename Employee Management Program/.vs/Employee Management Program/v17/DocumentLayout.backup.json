@@ -1,18 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bab10\\source\\repos\\Employee Management Program\\",
+  "WorkspaceRootPath": "C:\\Users\\bab10\\source\\repos\\EmployeeManagementProgram\\Employee Management Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36CA0967-2EC8-4ED2-B8FA-5D57298B6DAC}|Employee Management Program.csproj|c:\\users\\bab10\\source\\repos\\employee management program\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36CA0967-2EC8-4ED2-B8FA-5D57298B6DAC}|Employee Management Program.csproj|solutionrelative:employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36CA0967-2EC8-4ED2-B8FA-5D57298B6DAC}|Employee Management Program.csproj|c:\\users\\bab10\\source\\repos\\employee management program\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{36CA0967-2EC8-4ED2-B8FA-5D57298B6DAC}|Employee Management Program.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36CA0967-2EC8-4ED2-B8FA-5D57298B6DAC}|Employee Management Program.csproj|c:\\users\\bab10\\source\\repos\\employee management program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{36CA0967-2EC8-4ED2-B8FA-5D57298B6DAC}|Employee Management Program.csproj|c:\\users\\bab10\\source\\repos\\employeemanagementprogram\\employee management program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36CA0967-2EC8-4ED2-B8FA-5D57298B6DAC}|Employee Management Program.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64B6FEB-49FB-4573-AE9E-B192FD723C22}|..\\EmployeeManagement.Tests\\EmployeeManagement.Tests.csproj|c:\\users\\bab10\\source\\repos\\employeemanagementprogram\\employeemanagement.tests\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CA0967-2EC8-4ED2-B8FA-5D57298B6DAC}|Employee Management Program.csproj|c:\\users\\bab10\\source\\repos\\employeemanagementprogram\\employee management program\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36CA0967-2EC8-4ED2-B8FA-5D57298B6DAC}|Employee Management Program.csproj|solutionrelative:employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +21,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\Users\\bab10\\source\\repos\\Employee Management Program\\README.md",
-              "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "C:\\Users\\bab10\\source\\repos\\Employee Management Program\\README.md",
-              "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-02-04T22:31:40.849Z",
+              "Title": "MSTestSettings.cs",
+              "DocumentMoniker": "C:\\Users\\bab10\\source\\repos\\EmployeeManagementProgram\\EmployeeManagement.Tests\\MSTestSettings.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Tests\\MSTestSettings.cs",
+              "ToolTip": "C:\\Users\\bab10\\source\\repos\\EmployeeManagementProgram\\EmployeeManagement.Tests\\MSTestSettings.cs*",
+              "RelativeToolTip": "..\\EmployeeManagement.Tests\\MSTestSettings.cs*",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwDUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T19:42:03.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\bab10\\source\\repos\\Employee Management Program\\Employee.cs",
+              "DocumentMoniker": "C:\\Users\\bab10\\source\\repos\\EmployeeManagementProgram\\Employee Management Program\\Employee.cs",
               "RelativeDocumentMoniker": "Employee.cs",
-              "ToolTip": "C:\\Users\\bab10\\source\\repos\\Employee Management Program\\Employee.cs",
+              "ToolTip": "C:\\Users\\bab10\\source\\repos\\EmployeeManagementProgram\\Employee Management Program\\Employee.cs",
               "RelativeToolTip": "Employee.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAqwG8AAABsAAAAAAAAAA==",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAQwJoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T15:26:10.353Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\bab10\\source\\repos\\Employee Management Program\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\bab10\\source\\repos\\EmployeeManagementProgram\\Employee Management Program\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\bab10\\source\\repos\\Employee Management Program\\Program.cs",
+              "ToolTip": "C:\\Users\\bab10\\source\\repos\\EmployeeManagementProgram\\Employee Management Program\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAACDAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T15:25:23.87Z",
               "EditorCaption": ""

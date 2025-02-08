@@ -1,0 +1,14 @@
+C:\Users\bab10\source\repos\Employee Management Program\bin\Debug\net8.0\Employee Management Program.exe
+C:\Users\bab10\source\repos\Employee Management Program\bin\Debug\net8.0\Employee Management Program.deps.json
+C:\Users\bab10\source\repos\Employee Management Program\bin\Debug\net8.0\Employee Management Program.runtimeconfig.json
+C:\Users\bab10\source\repos\Employee Management Program\bin\Debug\net8.0\Employee Management Program.dll
+C:\Users\bab10\source\repos\Employee Management Program\bin\Debug\net8.0\Employee Management Program.pdb
+C:\Users\bab10\source\repos\Employee Management Program\obj\Debug\net8.0\Employee Management Program.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bab10\source\repos\Employee Management Program\obj\Debug\net8.0\Employee Management Program.AssemblyInfoInputs.cache
+C:\Users\bab10\source\repos\Employee Management Program\obj\Debug\net8.0\Employee Management Program.AssemblyInfo.cs
+C:\Users\bab10\source\repos\Employee Management Program\obj\Debug\net8.0\Employee Management Program.csproj.CoreCompileInputs.cache
+C:\Users\bab10\source\repos\Employee Management Program\obj\Debug\net8.0\Employee Management Program.dll
+C:\Users\bab10\source\repos\Employee Management Program\obj\Debug\net8.0\refint\Employee Management Program.dll
+C:\Users\bab10\source\repos\Employee Management Program\obj\Debug\net8.0\Employee Management Program.pdb
+C:\Users\bab10\source\repos\Employee Management Program\obj\Debug\net8.0\Employee Management Program.genruntimeconfig.cache
+C:\Users\bab10\source\repos\Employee Management Program\obj\Debug\net8.0\ref\Employee Management Program.dll

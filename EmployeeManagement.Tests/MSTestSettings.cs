@@ -55,4 +55,38 @@ namespace EmployeeManagementTests
         }
     }
 
+    [TestClass]
+
+    public class ToStringTests
+    {
+        [TestMethod]
+        public void ToString_ShouldReturnCorrectFormat()
+        {
+            var employee1 = new Employee(12345, "Matt Gaetz", "Winning", 250000);
+            Assert.AreEqual(ToString(), employee1.ToString());
+        }
+
+        [TestMethod]
+        public void ToString_ShouldIncludeAnnualBonus()
+        {
+            var employee1 = new FullTime(12345, "Josh Hawley", "Legal", 250000, 7);
+            Assert.AreEqual(ToString(), employee1.ToString());
+        }
+
+        [TestMethod]
+        public void ToString_ShouldIncludeHourlyRateAndHoursWorked()
+        {
+            var employee1 = new PartTime(12345, "Rashida Talib", "Deception", 65.50, 75);
+            Assert.AreEqual(ToString(), employee1.ToString());
+        }
+
+        [TestMethod]
+        public void ToString_ShouldIncludeContractExpiryDate()
+        {
+            var employee1 = new Contractor(12345, "Anthony Fauci", "Gain of Function", 5000000);
+            Assert.AreEqual(ToString(), employee1.ToString());
+        }
+    }
+
+
 } 
